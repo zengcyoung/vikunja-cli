@@ -1,0 +1,1 @@
+"""vikunja_cli package."""

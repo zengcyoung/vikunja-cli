@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Wrapper: runs vk via uv-managed venv
+exec "$HOME/vikunja-cli/.venv/bin/python" -m vikunja_cli.main "$@"
