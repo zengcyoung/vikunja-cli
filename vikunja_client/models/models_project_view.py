@@ -141,7 +141,7 @@ class ModelsProjectView:
         d = dict(src_dict)
         _bucket_configuration = d.pop("bucket_configuration", UNSET)
         bucket_configuration: list[ModelsProjectViewBucketConfiguration] | Unset = UNSET
-        if _bucket_configuration is not UNSET:
+        if _bucket_configuration is not UNSET and _bucket_configuration is not None:
             bucket_configuration = []
             for bucket_configuration_item_data in _bucket_configuration:
                 bucket_configuration_item = (
